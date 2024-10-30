@@ -90,7 +90,6 @@ export default function About() {
                   <span className="text-gray-300">Comprehensive security measures</span>
                 </li>
               </ul>
-              <Button className="mt-6 bg-blue-500 hover:bg-blue-600 text-white">Learn More</Button>
             </div>
           </div>
         </div>
