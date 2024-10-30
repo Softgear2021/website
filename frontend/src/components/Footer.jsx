@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-extrabold text-white mb-2">TechSolutions</h2>
+                <h2 className="text-3xl font-extrabold text-white mb-2">SoftGear Solutions</h2>
                 <p className="text-sm leading-relaxed text-gray-400">
                   Empowering businesses with cutting-edge IT solutions. Our innovative approach keeps you at the forefront of the digital revolution.
                 </p>
@@ -65,7 +65,7 @@ export default function Footer() {
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
-                    info@techsolutions.com
+                    info@softgearsolutions.com
                   </li>
                 </ul>
               </div>
@@ -88,7 +88,7 @@ export default function Footer() {
               ))}
             </div>
             <div className="text-sm text-gray-400">
-              © {new Date().getFullYear()} TechSolutions. All rights reserved.
+              © {new Date().getFullYear()} SoftGear Solutions. All rights reserved.
             </div>
           </div>
         </div>

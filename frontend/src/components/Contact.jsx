@@ -126,7 +126,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-2">
               <MailIcon className="text-blue-600" />
-              <p>contact@example.com</p>
+              <p>contact@softgearsolutions.com</p>
             </div>
           </div>
         </div>
