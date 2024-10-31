@@ -1,5 +1,6 @@
 import { CheckCircle, Code, Globe, Headphones, Server, Users } from "lucide-react";
 import { ReactNode } from "react";
+import abt from "../imgs/abt.jpg"
 
 const Button = ({ children, className, ...props }: { children: ReactNode; className?: string; [key: string]: any }) => (
   <button
@@ -64,7 +65,7 @@ export default function About() {
           <div className="mt-8 flex flex-col md:flex-row">
             <div className="md:w-1/2">
               <img
-                src="/path-to-image/placeholder.svg"
+                src={abt}
                 alt="IT professionals working"
                 width={600}
                 height={400}
