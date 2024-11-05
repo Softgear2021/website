@@ -118,11 +118,11 @@ export default function Contact() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <MapIcon className="text-blue-600" />
-              <p>1355 Market St #900, San Francisco, CA 94103</p>
+              <p>Plot No B-792, DDA Flats, Bindapur Dwarka Sector 1, Pkt 3 New Delhi - 110059</p>
             </div>
             <div className="flex items-center space-x-2">
               <PhoneIcon className="text-blue-600" />
-              <p>(555) 123-4567</p>
+              <p>+91-78348-62764</p>
             </div>
             <div className="flex items-center space-x-2">
               <MailIcon className="text-blue-600" />

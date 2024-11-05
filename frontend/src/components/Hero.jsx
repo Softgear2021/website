@@ -43,9 +43,7 @@ const Hero = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           } transition-all duration-1000 ease-out delay-500`}
         >
-          <button className="px-8 py-4 bg-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:bg-indigo-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50">
-            Explore Our Services
-          </button>
+          
         </div>
       </div>
 

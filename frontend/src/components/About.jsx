@@ -95,7 +95,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Team</h2>
           <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
@@ -115,7 +115,7 @@ export default function About() {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
