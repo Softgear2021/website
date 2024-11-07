@@ -105,7 +105,7 @@ export default function Contact() {
         <div className="flex-1">
           <div className="mb-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977738682895!2d-122.41941658468212!3d37.77492977975945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sTwitter%20HQ!5e0!3m2!1sen!2sus!4v1621436361986!5m2!1sen!2sus"
+              src="https://www.google.com/maps?q=28.611437,77.066132&hl=es;z=14&output=embed"
               width="100%"
               height="300"
               style={{ border: 0 }}
