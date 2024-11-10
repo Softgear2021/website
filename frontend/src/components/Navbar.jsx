@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../imgs/logo.jpg'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,12 +21,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-gray-900 text-white fixed top-0 min-w-full z-10">
+    <nav className="bg-gray-900 text-white fixed top-0 p-2 min-w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-center gap-[1100px] h-16">
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0">
-              <span className="text-xl font-bold">SoftGear Solutions</span>
+              {/* <span className="text-xl font-bold"></span> */}
+              <img src={logo} alt="logo" className="h-12 w-32" />
             </a>
           </div>
           <div className="hidden md:block">
