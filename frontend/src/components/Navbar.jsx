@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-900 text-white fixed top-0 p-2 min-w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center gap-[1100px] h-16">
+        <div className="flex items-center justify-center gap-[250px] sm:gap-[550px] md:gap-[250px] lg:gap-[500px] xl:gap-[800px] 2xl:gap-[1100px] h-16">
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0">
               {/* <span className="text-xl font-bold"></span> */}
