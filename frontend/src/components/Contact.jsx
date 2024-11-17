@@ -99,7 +99,7 @@ export default function Contact() {
             </button>
           </form>
           {formStatus === 'submitted' && (
-            <p className="mt-4 text-green-400">Thank you for your message. We'll be in touch soon!</p>
+            <p className="mt-4 text-green-400">Thank you for reaching out. We will get back to you soon.</p>
           )}
         </div>
         <div className="flex-1">

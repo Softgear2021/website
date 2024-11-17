@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12">
           <div className="col-span-1 sm:col-span-2 lg:col-span-2 space-y-6">
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">SoftGear Solutions</h2>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">SoftGear Solution</h2>
               <p className="text-sm sm:text-base leading-relaxed text-gray-400">
                 Empowering businesses with cutting-edge IT solutions. Our innovative approach keeps you at the forefront of the digital revolution.
               </p>
@@ -109,7 +109,7 @@ export default function Footer() {
             ))}
           </div>
           <div className="text-sm text-gray-400 text-center sm:text-left">
-            © {new Date().getFullYear()} SoftGear Solutions. All rights reserved.
+            © {new Date().getFullYear()} SoftGear Solution Pvt Ltd. All rights reserved.
           </div>
         </div>
       </div>
