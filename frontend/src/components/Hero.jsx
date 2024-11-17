@@ -24,7 +24,7 @@ const Hero = () => {
         {/* Main Content */}
         <div className="relative text-center px-6 max-w-5xl mx-auto">
           <h1
-            className={`text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight ${
+            className={`text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             } transition-all duration-1000 ease-out`}
             style={{
@@ -36,7 +36,7 @@ const Hero = () => {
             Innovative IT Solutions for Your Business Growth
           </h1>
           <p
-            className={`text-xl sm:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed ${
+            className={`text-xl sm:text-2xl lg:text-4xl text-gray-300 mb-10 max-w-5xl mx-auto leading-relaxed ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             } transition-all duration-1000 ease-out delay-300`}
             style={{
